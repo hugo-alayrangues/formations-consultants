@@ -1,0 +1,7 @@
+@import url("php_code.css");
+@import url("html_code.css");
+
+pre .ampersand {
+    color: red;
+    font-weight: bold;
+}

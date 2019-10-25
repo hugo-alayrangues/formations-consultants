@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_24.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_23.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>Formulaires - Radio</h1>
+        <h2>Page 24</h2>
+    </header>
+
+    <p>
+        Niveau d'études : <br>
+        <label><input type="radio" name="level" value="i1_p1">I1 / P1</label>
+        <label><input type="radio" name="level" value="i2_p2">I2 / P2</label>
+        <label><input type="radio" name="level" value="a1">A1</label>
+        <label><input type="radio" name="level" value="a2">A2</label>
+        <label><input type="radio" name="level" value="a3">A3</label><br>
+    </p>
+
+    <div class="board">
+        <pre>
+<strong>const</strong> radioElts = document.getElementsByName("level");
+
+<em>console.log</em>(radioElts);
+
+<strong>for</strong> (<strong>let</strong> k = 0; k < radioElts.length; k++) {
+    <em>console.log</em>(radioElts[k]);
+    radioElts[k].addEventListener(<mark>"change"</mark>, changeRadioFunction);
+}
+
+<strong>function</strong> changeRadioFunction(event) {
+    <em>console.log</em>("Année sélectionnée : " + <mark>event.target.value</mark>);
+}
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_25.html" class="change_page"></a>
+<script src="../js/page_24.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

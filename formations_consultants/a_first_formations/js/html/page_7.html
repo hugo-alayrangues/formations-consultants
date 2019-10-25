@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_6.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_6.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>DOM - Sélection précise des éléments (3)</h1>
+        <h2>Page 7</h2>
+    </header>
+
+    <div class="board">
+        <div class="random_tags">
+            <div id="left">
+                <p class="first">Premier paragraphe de gauche</p>
+                <p class="second">Second paragraphe de gauche</p>
+            </div>
+            <div class="right">
+                <p class="first">Premier paragraphe de droite</p>
+                <p class="second">Second paragraphe de droite</p>
+            </div>
+        </div>
+        <pre>
+<em>console.log</em>("Eléments de classe 'second' :");
+<em>console.log</em>(document<mark>.querySelectorAll(".second")</mark>);
+
+<em>console.log</em>("Eléments de classe 'second' dans l'élément d'id 'left' :");
+<em>console.log</em>(document<mark>.querySelectorAll("#left > .second")</mark>);
+
+<em>console.log</em>("Premier élément de classe 'right' :");
+<em>console.log</em>(document<mark>.querySelector(".right")</mark>);
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_8.html" class="change_page"></a>
+<script src="../js/page_7.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

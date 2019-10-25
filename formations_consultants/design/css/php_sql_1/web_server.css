@@ -1,0 +1,13 @@
+.logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos_1 img {
+    margin: 0 75px 25px 75px;
+}
+
+.logos_2 img {
+    margin: 0 40px 0 40px;
+}

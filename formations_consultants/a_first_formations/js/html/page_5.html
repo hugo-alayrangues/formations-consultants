@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_5.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_4.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>DOM - Sélection précise des éléments (1)</h1>
+        <h2>Page 5</h2>
+    </header>
+
+    <div class="board">
+        <div class="random_tags">
+            <h3>Titre h3 numéro 1</h3>
+            <h3>Titre h3 numéro 2</h3>
+            <h3>Titre h3 numéro 3</h3>
+        </div>
+        <pre>
+<strong>const</strong> h3Elts = document<mark>.getElementsByTagName("h3")</mark>;
+
+<em>console.log</em>("Titres h3 :");
+<em>console.log</em>(h3Elts);
+
+<em>console.log</em>("Nombre de titres h3 :");
+<em>console.log</em>(h3Elts<mark>.length</mark>);
+
+<em>console.log</em>("Parcours des titres h3 :");
+<strong>for</strong> (<strong>let</strong> k = 0; k < h3Elts.length; k++) {
+    <em>console.log</em>(h3Elts[k]);
+}
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_6.html" class="change_page"></a>
+<script src="../js/page_5.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

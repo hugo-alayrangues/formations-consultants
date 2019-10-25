@@ -1,0 +1,27 @@
+pre {
+    padding: 15px 15px 0 15px;
+    width: 75%;
+    border: 1px solid purple;
+    border-radius: 10px;
+    background-color: rgba(215, 0, 215, 0.06);
+    color: black;
+}
+
+.php_code strong {
+    font-weight: normal;
+    color: orangered;
+}
+
+.php_code em {
+    font-style: normal;
+    color: dodgerblue;
+}
+
+.php_code mark {
+    background-color: transparent;
+    color: forestgreen;
+}
+
+.comment {
+    color: grey;
+}

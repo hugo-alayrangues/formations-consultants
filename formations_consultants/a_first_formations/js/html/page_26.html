@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_26.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_25.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>Eléments d'un formulaire et envoi</h1>
+        <h2>Page 26</h2>
+    </header>
+
+    <form method="post" action="#">
+        <p>
+            <label>
+                Mot de passe : <br>
+                <input type="password" name="first_password" size="20">
+            </label>
+        </p>
+        <p>
+            <label>
+                Confirmation du mot de passe : <br>
+                <input type="password" name="second_password" size="20">
+            </label>
+        </p>
+        <p><input type="submit" value="Valider"></p>
+    </form>
+
+    <div class="board">
+        <pre>
+<strong>const</strong> formElt = document.querySelector("form");
+
+<em>console.log</em>(formElt);
+<em>console.log</em>(formElt.elements);
+
+<strong>for</strong> (<strong>let</strong> k = 0; k < formElt.elements.length; k++) {
+    <em>console.log</em>(formElt.elements[k]);
+}
+
+formElt.addEventListener(<mark>"submit"</mark>, submitFunction);
+
+<strong>function</strong> submitFunction(event) {
+    <em>console.log</em>("L'envoi est bloqué (la page ne se recharge pas)");
+    <mark>event.preventDefault()</mark>;
+}
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_27.html" class="change_page"></a>
+<script src="../js/page_26.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

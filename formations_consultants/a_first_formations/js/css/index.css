@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(../pictures/index_background.jpg) bottom no-repeat fixed;
+    background-size: cover;
+}
+
+.banner {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,-50%);
+    color: #655383;
+    text-shadow: 0 1px 0 black;
+    font-family: Arial, sans-serif;
+    max-width: 90%;
+    width: 40%;
+    min-width: 400px;
+    background-color: rgba(248, 234, 255, 0.81);
+    text-align: center;
+    display: flex;
+}
+
+.banner .text {
+    flex: 8;
+}
+
+.banner a {
+    display: inline-block;
+    flex: 1;
+}
+
+.banner a:hover {
+    transition: .8s;
+    background-color: rgba(195, 164, 255, 0.48);
+}

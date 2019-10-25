@@ -1,0 +1,30 @@
+.board {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+}
+
+.left div {
+    margin: 15px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    border-left: 2px dashed black;
+}
+
+.right div {
+    margin-top: 40px;
+}
+
+.right div ul {
+    text-align: left;
+}

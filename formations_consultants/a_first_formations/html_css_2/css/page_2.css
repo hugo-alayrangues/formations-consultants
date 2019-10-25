@@ -1,0 +1,31 @@
+pre {
+    border: 2px solid black;
+    padding: 20px 0 20px 0;
+    margin-top: 100px;
+    font-size: 2em;
+}
+
+.explanation {
+    font-size: 1.5em;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+strong {
+    color: deeppink;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    color: limegreen;
+}
+
+mark {
+    background-color: transparent;
+    font-weight: bold;
+    color: orange;
+}

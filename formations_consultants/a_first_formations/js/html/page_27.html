@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_26.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_26.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>Vérification des champs avant l'envoi</h1>
+        <h2>Page 27</h2>
+    </header>
+
+    <form method="post" action="#">
+        <p>
+            <label>
+                <span id="first_password_info">Mot de passe (5 caractères minimum) :</span> <br>
+                <input type="password" name="first_password" size="20">
+            </label>
+        </p>
+        <p>
+            <label>
+                <span id="second_password_info">Confirmation du mot de passe :</span> <br>
+                <input type="password" name="second_password" size="20">
+            </label>
+        </p>
+        <p><input type="submit" value="Valider"></p>
+    </form>
+
+    <div class="board">
+        <pre>
+<strong>const</strong> formElt = document.querySelector("form");
+
+<strong>const</strong> firstPasswordElt = formElt.elements[0];
+<strong>const</strong> secondPasswordElt = formElt.elements[1];
+
+<strong>const</strong> firstPasswordInfoElt = document.getElementById("first_password_info");
+<strong>const</strong> secondPasswordInfoElt = document.getElementById("second_password_info");
+
+firstPasswordElt.addEventListener(<mark>"input"</mark>, firstPasswordCheck);
+secondPasswordElt.addEventListener(<mark>"input"</mark>, secondPasswordCheck);
+
+formElt.addEventListener(<mark>"submit"</mark>, submitFunction);
+
+
+<span class="comment">// ----- Fonctions utilisées -----</span>
+
+<strong>function</strong> firstPasswordCheck(event) {
+    <em>console.log</em>(<mark>event.target.value</mark>);
+    <span class="comment">// Tests "en temps réel" sur le premier mot de passe</span>
+}
+
+<strong>function</strong> secondPasswordCheck(event) {
+    <em>console.log</em>(<mark>event.target.value</mark>);
+    <span class="comment">// Tests "en temps réel" sur le second mot de passe</span>
+}
+
+<strong>function</strong> submitFunction(event) {
+    <span class="comment">// Dernière vérification avant l'envoi</span>
+}
+        </pre>
+    </div>
+
+</div>
+
+<a href="../index.html" class="change_page"></a>
+<script src="../js/page_27.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

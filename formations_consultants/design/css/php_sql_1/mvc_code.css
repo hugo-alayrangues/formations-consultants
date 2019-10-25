@@ -1,0 +1,6 @@
+@import url("php_code.css");
+@import url("html_code.css");
+
+.content pre {
+    margin-bottom: 70px;
+}

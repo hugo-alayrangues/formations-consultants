@@ -1,0 +1,114 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    flex: 1;
+    font-size: 1.4em;
+}
+
+pre em {
+    font-style: inherit;
+    color: grey;
+}
+
+.result {
+    flex: 1;
+    border-left: 2px dashed black;
+    padding-left: 25px;
+    font-size: 1.5em;
+}
+
+.border {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.border p {
+    padding: 15px;
+    margin: 15px;
+}
+
+.border_side {
+    margin-top: 25px;
+}
+
+.border_radius {
+    margin-top: 50px;
+}
+
+.box_shadow {
+    margin-top: 20px;
+}
+
+#solid {
+    border: 4px solid purple;
+}
+
+#dotted {
+    border: 4px dotted purple;
+}
+
+#dashed {
+    border: 4px dashed purple;
+}
+
+#double {
+    border: 4px double purple;
+}
+
+#groove {
+    border: 4px groove purple;
+}
+
+#ridge {
+    border: 4px ridge purple;
+}
+
+#inset {
+    border: 4px inset purple;
+}
+
+#outset {
+    border: 4px outset purple;
+}
+
+#top {
+    border-top: 4px solid purple;
+}
+
+#right {
+    border-right: 4px solid purple;
+}
+
+#bottom {
+    border-bottom: 4px solid purple;
+}
+
+#left {
+    border-left: 4px solid purple;
+}
+
+#radius {
+    border: 4px solid purple;
+    border-radius: 10px;
+}
+
+#other_radius {
+    border: 4px solid purple;
+    border-radius: 30px 5px 0 15px;
+}
+
+#shadow {
+    border: 1px solid purple;
+    box-shadow: 3px 10px 5px black;
+}
+
+#other_shadow {
+    border: 1px solid purple;
+    box-shadow: 5px 5px 50px purple;
+}

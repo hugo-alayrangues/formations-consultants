@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_7.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_6.html" class="change_page"></a>
+
+<div class="content">
+    <h1>HTML - Liens</h1>
+    <h2>Page 7</h2>
+
+    <div class="board">
+        <div class="link absolute_link">
+            <h3>Lien absolu</h3>
+            <div class="row">
+                <pre>&lt;a <mark>href=&quot;https://www.wikipedia.org/&quot;</mark>&gt;Lien vers Wikipédia&lt;/a&gt;</pre>
+                <a href="https://www.wikipedia.org/">Lien vers Wikipédia</a>
+            </div>
+            <div class="row">
+                <pre>&lt;a href=&quot;https://www.wikipedia.org/&quot; <mark>target=&quot;_blank&quot;</mark>&gt;Lien vers Wikipédia&lt;/a&gt;</pre>
+                <a href="https://www.wikipedia.org/" target="_blank">Lien vers Wikipédia</a>
+            </div>
+        </div>
+
+        <div class="link relative_link">
+            <h3>Lien relatif</h3>
+            <div class="explanation">
+                <div class="tree_diagram">
+                    <img src="../pictures/tree_diagram_mini.png" alt="tree_diagram">
+                </div>
+                <div class="cases">
+                    <div class="row">
+                        <pre>&lt;a <mark>href=&quot;page_6.html&quot;</mark>&gt;Lien vers page_6.html&lt;/a&gt;</pre>
+                        <a href="page_6.html">Lien vers page_6.html</a>
+                    </div>
+                    <div class="row">
+                        <pre>&lt;a <mark>href=&quot;sous_dossier/test.html&quot;</mark>&gt;Lien vers test.html&lt;/a&gt;</pre>
+                        <a href="sous_dossier/test.html">Lien vers test.html</a>
+                    </div>
+                    <div class="row">
+                        <pre>&lt;a <mark>href=&quot;../secret.html&quot;</mark>&gt;Lien vers secret.html&lt;/a&gt;</pre>
+                        <a href="../secret.html">Lien vers secret.html</a>
+                    </div>
+                    <div class="row">
+                        <pre>On peut tout à fait remonter et descendre de plusieurs niveaux : ../../../folder/file.html</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<a href="page_8.html" class="change_page"></a>
+</body>
+</html>

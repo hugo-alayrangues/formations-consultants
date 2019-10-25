@@ -1,0 +1,29 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.board div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 25px 0 25px;
+}
+
+.left {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.right {
+    font-size: 1.4em;
+}
+
+.right h3 {
+    margin: 0;
+}
+
+.right strong {
+    color: red;
+}

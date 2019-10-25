@@ -1,0 +1,29 @@
+.board h3 {
+    font-size: 1.5em;
+}
+
+ul {
+    font-size: 1.7em;
+}
+
+pre {
+    font-size: 1.8em;
+    text-align: center;
+    margin: 100px 0 120px 0;
+}
+
+pre strong {
+    color: deeppink;
+}
+
+pre em {
+    font-style: normal;
+    font-weight: bold;
+    color: limegreen;
+}
+
+pre mark {
+    background-color: transparent;
+    font-weight: bold;
+    color: orange;
+}

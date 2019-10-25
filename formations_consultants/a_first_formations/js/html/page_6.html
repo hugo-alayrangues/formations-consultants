@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_6.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_5.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>DOM - Sélection précise des éléments (2)</h1>
+        <h2>Page 6</h2>
+    </header>
+
+    <div class="board">
+        <div class="random_tags">
+            <h3 class="isep">Titre h4 de classe "isep"</h3>
+            <p class="isep">Paragraphe de classe "isep"</p>
+            <p id="junior">Paragraphe d'id "junior"</p>
+        </div>
+        <pre>
+<strong>const</strong> isepElts = document<mark>.getElementsByClassName("isep")</mark>;
+
+<em>console.log</em>("Eléments de classe 'isep' :");
+<em>console.log</em>(isepElts);
+
+<strong>const</strong> juniorElt = document<mark>.getElementById("junior")</mark>;
+
+<em>console.log</em>("Elément d'id 'junior' :");
+<em>console.log</em>(juniorElt);
+
+<span class="comment">// Obligatoirement un seul élément</span>
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_7.html" class="change_page"></a>
+<script src="../js/page_6.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

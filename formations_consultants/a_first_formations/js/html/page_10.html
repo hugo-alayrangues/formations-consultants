@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_6.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_9.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>DOM - Classe(s) des éléments</h1>
+        <h2>Page 10</h2>
+    </header>
+
+    <div class="board">
+        <div class="random_tags">
+            <h3 class="first_class second_class third_class">Petit titre avec plusieurs classes</h3>
+        </div>
+        <pre>
+<strong>const</strong> h3Elt = document.getElementsByTagName("h3")[0];
+
+<em>console.log</em>("Liste des classes du titre h3 :");
+<em>console.log</em>(h3Elt<mark>.classList</mark>);
+
+<em>console.log</em>("Première classe du titre h3 :");
+<em>console.log</em>(h3Elt<mark>.classList[0]</mark>);
+
+<em>console.log</em>("Vérifie la présénce de la classe 'fourth_class' sur le titre h3 :");
+<em>console.log</em>(h3Elt<mark>.classList.contains("fourth_class")</mark>);
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_11.html" class="change_page"></a>
+<script src="../js/page_10.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

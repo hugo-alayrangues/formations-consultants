@@ -1,0 +1,16 @@
+@import url("php_code.css");
+@import url("html_code.css");
+
+.content h3 {
+    margin-top: 50px;
+}
+
+
+pre {
+    width: 85%;
+    margin-bottom: 65px;
+}
+
+.bindparam_var {
+    color: magenta;
+}

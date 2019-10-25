@@ -1,0 +1,115 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    flex: 1;
+    font-size: 1.4em;
+}
+
+pre em {
+    font-style: inherit;
+    color: grey;
+}
+
+.result {
+    flex: 1;
+    border-left: 2px dashed black;
+    padding-left: 25px;
+}
+
+.font {
+    display: flex;
+    justify-content: space-around;
+}
+
+.font_size {
+    margin: 60px 25px 0 0;
+}
+
+#px {
+    font-size: 25px;
+}
+
+#small {
+    font-size: small;
+}
+
+#medium {
+    font-size: medium;
+}
+
+#large {
+    font-size: large;
+}
+
+#em08 {
+    font-size: 0.8em;
+}
+
+#em13 {
+    font-size: 2em;
+}
+
+.font_family {
+    margin: 110px 25px 0 0;
+    font-size: 1.5em;
+}
+
+#impact {
+    font-family: Impact, sans-serif;
+}
+
+#arial_black {
+    font-family: "Arial Black", sans-serif;
+}
+
+#arial {
+    font-family: Arial, sans-serif;
+}
+
+#serif {
+    font-family: serif;
+}
+
+.font_style {
+    margin: 90px 25px 0 0;
+    font-size: 1.5em;
+}
+
+#italic {
+    font-style: italic;
+}
+
+#oblique {
+    font-style: oblique;
+}
+
+.font_weight {
+    margin: 65px 25px 0 0;
+    font-size: 1.5em;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+.text_decoration {
+    margin: 40px 25px 0 0;
+    font-size: 1.5em;
+}
+
+#underline {
+    text-decoration: underline;
+}
+
+#line_through {
+    text-decoration: line-through;
+}
+
+#overline {
+    text-decoration: overline;
+}

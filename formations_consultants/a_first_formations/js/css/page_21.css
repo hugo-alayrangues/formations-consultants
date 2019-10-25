@@ -1,0 +1,47 @@
+.board {
+    display: flex;
+    justify-content: space-around;
+    min-height: 55vh;
+}
+
+.left {
+    padding-right: 50px;
+    border-right: 2px dashed black;
+}
+
+.right {
+    padding-left: 50px;
+}
+
+pre {
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+pre strong {
+    font-weight: normal;
+    color: red;
+}
+
+pre em {
+    font-style: normal;
+    color: #2b84ff;
+}
+
+pre mark {
+    background-color: transparent;
+    color: #4ace15;
+}
+
+.comment {
+    color: #8e8e8e;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    padding: 15px;
+    font-size: 1.5em;
+}

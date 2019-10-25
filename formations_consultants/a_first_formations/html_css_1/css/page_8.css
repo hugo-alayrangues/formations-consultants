@@ -1,0 +1,35 @@
+.block {
+    border: 2px solid black;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+
+.block h3 {
+    margin-bottom: 0;
+}
+
+.block .examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.block .examples div {
+    flex: 1;
+    margin: 0 10px 0 10px;
+}
+
+.block .examples div pre {
+    font-size: 1.2em;
+}
+
+.block .examples mark {
+    background-color: transparent;
+    color: red;
+}
+
+#example_alt {
+    margin: 10px 0 10px 0;
+}

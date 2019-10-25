@@ -1,0 +1,1 @@
+// Pas besoin de base de données pour le moment, donc il n'y rien dans le modèle

@@ -1,0 +1,35 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h3 {
+    text-align: center;
+}
+
+#office, #end {
+    flex: 1;
+    display: flex;
+}
+
+#office {
+    border-bottom: 2px dashed purple;
+}
+
+.front, .back {
+    flex: 1;
+}
+
+#office .front, #end .front {
+    border-right: 2px dashed purple;
+}
+
+.box {
+    padding: 0 10px 10px 20px;
+}
+
+input, select {
+    font-size: 0.8em;
+    padding: 5px;
+    margin-top: 10px;
+}

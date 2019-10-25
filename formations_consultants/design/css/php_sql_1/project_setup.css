@@ -1,0 +1,30 @@
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.os {
+    display: flex;
+}
+
+.os .windows {
+    flex: 1;
+    border-right: 2px dashed purple;
+    padding-bottom: 25px;
+}
+
+.os .mac_os {
+    flex:1;
+}
+
+.mac_os {
+    padding-left: 25px;
+}
+
+.common {
+    border-top: 2px dashed purple;
+}

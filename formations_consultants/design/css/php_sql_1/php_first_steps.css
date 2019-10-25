@@ -1,0 +1,10 @@
+@import url("php_code.css");
+
+.semicolon, .warning {
+    color: red;
+    font-weight: bold;
+}
+
+.comments {
+    margin-top: 50px;
+}

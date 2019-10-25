@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_23.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_22.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>Formulaires - Checkbox</h1>
+        <h2>Page 23</h2>
+    </header>
+
+    <p>
+        <label>
+            Conditions Générales d'Utilisation <input type="checkbox">
+        </label>
+        <span id="cgu_info">Vous devez accepter les CGU pour continuer</span>
+    </p>
+
+    <div class="board">
+        <pre>
+<strong>const</strong> inputElt = document.querySelector("input");
+<strong>const</strong> spanInfoElt = document.getElementById("cgu_info");
+
+inputElt.addEventListener(<mark>"change"</mark>, changeFunction);
+
+<strong>function</strong> changeFunction(event) {
+
+    <em>console.log</em>("Case cochée ? -> " + <mark>event.target.checked</mark>);
+
+    <strong>if</strong> (<mark>event.target.checked</mark>) {
+        spanInfoElt.textContent = "Vous pouvez continuer";
+        spanInfoElt.style.color = "green";
+    } <strong>else</strong> {
+        spanInfoElt.textContent = "Vous devez accepter les CGU pour continuer";
+        spanInfoElt.style.color = "red";
+    }
+}
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_24.html" class="change_page"></a>
+<script src="../js/page_23.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

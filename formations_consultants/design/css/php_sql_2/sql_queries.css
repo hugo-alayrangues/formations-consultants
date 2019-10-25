@@ -1,0 +1,18 @@
+@import url("php_code.css");
+
+.content h3 {
+    margin-top: 50px;
+}
+
+pre {
+    margin-bottom: 65px;
+}
+
+.no_margin_bottom {
+    margin-bottom: 0;
+}
+
+.content strong {
+    color: red;
+    font-size: 0.9em;
+}

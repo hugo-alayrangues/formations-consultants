@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_12.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_11.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1 class="example">DOM - Modifier classes et attributs d'un élément</h1>
+        <h2>Page 12</h2>
+    </header>
+
+    <div class="board">
+        <h3>HTML</h3>
+        <pre>
+&lt;h1 class=&quot;example&quot;&gt;DOM - Modifier classes et attributs d'un élément&lt;/h1&gt;
+        </pre>
+
+        <h3>JS</h3>
+        <pre>
+<strong>const</strong> h1Elt = document.querySelector("h1");
+
+h1Elt<mark>.setAttribute("id", "isep")</mark>;
+
+<span class="comment">/*
+Même chose que : h1Elt.id = "isep";
+Fonctionne pour 'href', 'id' et 'value' uniquement
+*/</span>
+
+h1Elt<mark>.classList.remove("example")</mark>;
+h1Elt<mark>.classList.add("junior")</mark>;
+
+<em>console.log</em>(h1Elt);
+        </pre>
+
+    </div>
+</div>
+
+<a href="page_13.html" class="change_page"></a>
+<script src="../js/page_12.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

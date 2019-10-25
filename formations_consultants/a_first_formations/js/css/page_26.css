@@ -1,0 +1,50 @@
+.board {
+    border: 2px solid black;
+    min-height: 60vh;
+}
+
+pre {
+    font-size: 1.7em;
+    margin-bottom: 0;
+}
+
+pre strong {
+    font-weight: normal;
+    color: red;
+}
+
+pre em {
+    font-style: normal;
+    color: #2b84ff;
+}
+
+pre mark {
+    background-color: transparent;
+    color: #4ace15;
+}
+
+.comment {
+    color: #8e8e8e;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+}
+
+p {
+    font-size: 1.3em;
+}
+
+input {
+    padding: 5px;
+    font-size: 1em;
+}
+
+input[type=submit] {
+    margin-top: 25px;
+}
+
+#cgu_info {
+    color: red;
+}

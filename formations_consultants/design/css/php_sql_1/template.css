@@ -1,0 +1,72 @@
+html {
+    padding: 0;
+    min-height: 100vh;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: mediumpurple;
+    color: white;
+}
+
+header h1 {
+    flex: 1;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 1.2em;
+}
+
+header img {
+    filter: drop-shadow(1px 1px 1px white);
+}
+
+header img:hover {
+    filter: drop-shadow(1px 1px 10px white);
+}
+
+.main {
+    display: flex;
+}
+
+.main nav {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(147, 112, 219, 0.74);
+    color: white;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 0;
+    font-size: 1.2em;
+    min-width: 250px;
+}
+
+.main nav h2 {
+    margin: 25px;
+}
+
+.main nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 10px 10px 15px;
+}
+
+.main nav a:hover {
+    background-color: mediumpurple;
+    padding-left: 30px;
+}
+
+.content {
+    flex: 1;
+    margin: 20px;
+    font-size: 1.3em;
+    color: purple;
+}

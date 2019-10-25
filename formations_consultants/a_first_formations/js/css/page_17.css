@@ -1,0 +1,35 @@
+h2 {
+    color: blue;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    font-size: 1.7em;
+    margin-bottom: 0;
+}
+
+pre strong {
+    font-weight: normal;
+    color: red;
+}
+
+pre em {
+    font-style: normal;
+    color: #2b84ff;
+}
+
+pre mark {
+    background-color: transparent;
+    color: #4ace15;
+}
+
+
+.comment {
+    color: #8e8e8e;
+}

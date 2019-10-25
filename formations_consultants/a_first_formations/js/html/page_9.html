@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_6.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_8.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>DOM - Attribut(s) des éléments</h1>
+        <h2>Page 9</h2>
+    </header>
+
+    <div class="board">
+        <div class="random_tags">
+            <p><a href="page_8.html" id="link_to_page_8">Lien vers la page 8</a></p>
+            <p><input type="text" placeholder="Je suis un input sympathique" size="40"></p>
+        </div>
+        <pre>
+<strong>const</strong> aElt = document.getElementById("link_to_page_8");
+
+<em>console.log</em>("Attribut 'href' du lien :");
+<em>console.log</em>(aElt<mark>.getAttribute("href")</mark>);
+
+<em>console.log</em>("Autre façon de faire :");
+<em>console.log</em>(aElt<mark>.href</mark>);
+<span class="comment">// Fonctionne pour 'href', 'id' et 'value' uniquement</span>
+
+<em>console.log</em>("Vérifie que l'input a un attribut 'placeholder' :");
+<em>console.log</em>(document.getElementsByTagName("input")[0]<mark>.hasAttribute("placeholder")</mark>);
+        </pre>
+    </div>
+
+</div>
+
+<a href="page_10.html" class="change_page"></a>
+<script src="../js/page_9.js"></script>
+<script src="../js/change_page.js"></script>
+</body>
+</html>

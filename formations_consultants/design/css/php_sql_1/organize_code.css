@@ -1,0 +1,21 @@
+.role {
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.9em;
+}
+
+.role div {
+    border: 1px solid purple;
+    flex: 1;
+    padding: 15px;
+}
+
+.role div h4 {
+    text-align: center;
+    margin: 0;
+}
+
+.first_letter {
+    color: red;
+    font-size: 1.3em;
+}

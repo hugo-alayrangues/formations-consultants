@@ -1,0 +1,41 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    flex: 3;
+    font-size: 1.7em;
+}
+
+pre strong {
+    color: deeppink;
+}
+
+pre em {
+    font-style: normal;
+    font-weight: bold;
+    color: limegreen;
+}
+
+pre mark {
+    background-color: transparent;
+    font-weight: bold;
+    color: orange;
+}
+
+.result {
+    flex: 1;
+    padding-left: 20px;
+    border-left: 2px dashed black;
+}
+
+#input_1 {
+    margin-top: 55px;
+}
+
+#input_2 {
+    margin-top: 130px;
+}

@@ -1,0 +1,26 @@
+.html_code strong {
+    font-weight: normal;
+    color: deeppink;
+}
+
+.html_code em {
+    font-style: normal;
+    color: limegreen;
+}
+
+.html_code mark {
+    background-color: transparent;
+    color: orange;
+}
+
+.php_strong {
+    color: orangered;
+}
+
+.php_em {
+    color: dodgerblue;
+}
+
+.php_mark {
+    color: forestgreen;
+}

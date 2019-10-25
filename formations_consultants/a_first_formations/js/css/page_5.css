@@ -1,0 +1,31 @@
+.random_tags {
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    font-size: 1.5em;
+    color: purple;
+}
+
+pre {
+    font-size: 1.7em;
+    border: 2px solid black;
+    padding: 25px 0 25px 0;
+    min-height: 50vh;
+}
+
+pre strong {
+    font-weight: normal;
+    color: red;
+}
+
+pre em {
+    font-style: normal;
+    color: #2b84ff;
+}
+
+pre mark {
+    background-color: transparent;
+    color: #4ace15;
+}

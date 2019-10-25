@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/page_19.css">
+    <title>JE - Formation Consultants</title>
+</head>
+
+<body>
+<a href="page_18.html" class="change_page"></a>
+
+<div class="content">
+    <header>
+        <h1>CSS - Flexbox</h1>
+        <h2>Page 19</h2>
+    </header>
+
+    <div class="board">
+        <pre>
+#box {
+    display: flex;
+    flex-direction: row; <em>/* ou column */</em>
+    border: 2px solid purple;
+}
+
+.box_element:nth-child(1) {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+
+.box_element:nth-child(2) {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.box_element:nth-child(3) {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+
+
+#box {
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid purple;
+    margin: 25px;
+}
+        </pre>
+
+        <div class="result">
+            <div id="box_1">
+                <div class="box_1_element">Element 1</div>
+                <div class="box_1_element">Element 2</div>
+                <div class="box_1_element">Element 3</div>
+            </div>
+            <div id="box_2">
+                <div class="box_2_element">Element 1</div>
+                <div class="box_2_element">Element 2</div>
+                <div class="box_2_element">Element 3</div>
+            </div>
+            <div id="box_3">
+                <div class="box_3_element">Element 1</div>
+                <div class="box_3_element">Element 2</div>
+                <div class="box_3_element">Element 3</div>
+                <div class="box_3_element">Element 4</div>
+                <div class="box_3_element">Element 5</div>
+                <div class="box_3_element">Element 6</div>
+            </div>
+            <div id="box_4">
+                <div class="box_4_element">Element 1</div>
+                <div class="box_4_element">Element 2</div>
+                <div class="box_4_element">Element 3</div>
+                <div class="box_4_element">Element 4</div>
+                <div class="box_4_element">Element 5</div>
+                <div class="box_4_element">Element 6</div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<a href="page_20.html" class="change_page"></a>
+</body>
+</html>

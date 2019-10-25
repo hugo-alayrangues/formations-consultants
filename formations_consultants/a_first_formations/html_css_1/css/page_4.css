@@ -1,0 +1,12 @@
+.board {
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    font-size: 2em;
+}
+
+pre strong {
+    color: red;
+}

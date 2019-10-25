@@ -1,0 +1,25 @@
+.content {
+    display: flex;
+}
+
+#mvc {
+    flex: 1;
+    padding-left: 10px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.line button {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+#explanation {
+    border-left: 2px dashed purple;
+    padding-left: 25px;
+}

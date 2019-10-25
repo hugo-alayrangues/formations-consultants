@@ -1,0 +1,55 @@
+.board {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    flex: 1;
+    font-size: 1.4em;
+}
+
+pre em {
+    font-style: inherit;
+    color: grey;
+}
+
+.result {
+    flex: 1;
+    border-left: 2px dashed black;
+    padding-left: 25px;
+    font-size: 1.5em;
+}
+
+#blue {
+    color: blue;
+    margin-top: 30px;
+}
+
+#hexa {
+    color: #74B53E;
+    margin-top: 60px;
+}
+
+#rgb {
+    color: rgb(180, 120, 60);
+    margin-top: 60px;
+}
+
+#rgba {
+    color: rgba(180, 120, 60, 0.5);
+    margin-top: 55px;
+}
+
+mark {
+    color: white;
+    background-color: purple;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+#shadow {
+    text-shadow: 4px 10px 5px purple;
+    margin-top: 65px;
+}

@@ -1,0 +1,37 @@
+html {
+    min-height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.change_page {
+    display: inline-block;
+    flex: 1;
+    min-width: 50px;
+}
+
+.change_page:hover {
+    transition: .8s;
+    background-color: rgba(195, 164, 255, 0.48);
+}
+
+.content {
+    flex: 14;
+    padding: 0 25px 25px 25px;
+    font-family: Arial, sans-serif;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.content h2 {
+    text-align: center;
+    font-style: italic;
+    font-weight: normal;
+}

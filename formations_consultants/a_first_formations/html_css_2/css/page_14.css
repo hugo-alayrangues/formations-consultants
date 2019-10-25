@@ -1,0 +1,61 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    min-height: 75vh;
+}
+
+pre {
+    flex: 1;
+    font-size: 1.5em;
+}
+
+pre strong {
+    color: red;
+}
+
+form {
+    margin: 30px 0 30px 25px;
+    font-size: 1.1em;
+    color: purple;
+}
+
+#email {
+    padding: 8px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    font-size: 1em;
+}
+
+#email:focus {
+    outline: 2px solid purple;
+}
+
+#submit {
+    margin-left: 25px;
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid purple;
+    background-color: white;
+    color: purple;
+    font-size: 1em;
+}
+
+#submit:hover {
+    background-color: purple;
+    color: white;
+}
+
+:required {
+    background-color: rgba(255, 0, 0, 0.16);
+}
+
+:focus {
+    color: blue;
+}
+
+#email:invalid {
+    color: red;
+}
+
